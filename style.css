@@ -1,3 +1,5 @@
+/*----Basic Styles----*/
+
 
 body{
 margin: 0;
@@ -17,7 +19,7 @@ header{
 .logo{
    font-family: ;
   font-size: 76px;
-  color:#adb5bd;
+  color:#f7e294;
   text-align: center;
   margin: 0;
   padding: 20px ;
@@ -26,21 +28,22 @@ header{
   
    header h2{
      font-family: ;
-	color: #ced4da;
+	color: #faf0ca;
 	margin: 0px;
-	font-size: 18px;
+	font-size: 28px;
 	text-align: center;
   }
   
  section{
-  padding: 0 25px 0 0 ;
-  margin: 75px 0 0 0 ;
+  padding: 0 25px  ;
+  margin: 75px 0  ;
+  width: auto;
 }
   
 footer{
   background-color:#0d3b66 ;
   text-align: center;
-  padding: 40px;
+  padding: 15px;
   margin: 0;
 }
   
@@ -48,7 +51,7 @@ footer{
 
 h1, h2, h3 {
   font-family: ;
-	color: #adb5bd;
+	color: #0d3b66;
   text-align: center;
   font-weight: 350;
 }
@@ -62,14 +65,20 @@ font-weight: 500;
 text-decoration: none;
 }
 
-a:link{color:#0466c8}
-a:visited{color:#0353a4}
-a:hover{color:#023e7d}
-a:active{color:#002855}
+a:link{color:#002855}
+a:visited{color:#023e7d}
+a:hover{color:#0353a4}
+a:active{color:#0466c8}
 
 hr{
+  width: auto;
+  height: 4px;
+  background-color:  #0d3b66;
+  border: 2px solid black;
+  margin-top: 80px;
+  margin-bottom: 80px;
 padding-top: 0 80px;
-border-top: 4px solid #0d3b66
+
 }
 
 
@@ -82,14 +91,14 @@ p, li,{
 }
 
 footer p{
-  color:#adb5bd
+  color:#faf0ca
 }
 
   /*---image---*/
   
-img{
+  img{
   max-width: 100%;  
   height: auto;  
   border-radius: 2px;
-  border: 1px solid #adb5bd;
+  border: 1px solid #f7e294;
   }
