@@ -87,8 +87,9 @@ footer p{
 
   /*---image---*/
   
-  img{
-  width: 25%;	
+img{
+  max-width: 100%;  
+  height: auto;  
   border-radius: 2px;
   border: 1px solid #adb5bd;
   }
