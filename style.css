@@ -13,6 +13,12 @@ header{
   margin: 0;
   
 .logo{
+   font-family: 'Nanum Pen Script', cursive;
+  font-size: 72px;
+  color:#adb5bd;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
   
   }
   
@@ -38,20 +44,21 @@ footer{
   
   /*---font and groups --- */
 
-h1{}
-h2{}
-h3{}  
+h1 { font-size: 30px; }
+h2 { font-size: 28px; }
+h3 { font-size: 19px; } 
 
 a{
   
 }
 
-a:link{color:""}
-a:visited{color:""}
-a:hover{color:""}
-a:active{color:""}
+a:link{color:#0466c8}
+a:visited{color:#0353a4}
+a:hover{color:#023e7d}
+a:active{color:#002855}
 
 hr{
+background-color:#0d3b66
   
 }
 
@@ -61,19 +68,19 @@ ul,ol{
   
   
 p, li,{
-  font-family:'Trebuchet MS';
-  font-size:16px;
-   text-align: center;
-  
+ font-family: ;
+ line-height: 1.5em;
+ margin-bottom: 0;
 }
 
-footer p{}
+footer p{
+  color:#adb5bd
+}
 
   /*---image---*/
   
   img{
-  
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid #adb5bd;
   }
-
-
-
