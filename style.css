@@ -35,6 +35,19 @@ header{
   padding: 0 30%;
   margin: 90px 0;
 }
+	
+ul {
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
+
+li {
+  text-align: center;
+}
+ 
  
 footer{
   background-color:#0d3b66 ;
