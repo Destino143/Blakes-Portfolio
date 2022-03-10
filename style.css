@@ -13,21 +13,21 @@ header{
   margin: 0;
   
 .logo{
-   font-family: 'Nanum Pen Script', cursive;
+   font-family: cursive;
   font-size: 72px;
   color:#adb5bd;
   text-align: center;
   margin: 0;
   padding: 20px 0 0 0;
-  
+ 
   }
   
-  h2{
-  
-  }
-
-  h3{
-  
+   header h2{
+     font-family: serif;
+	color: #ced4da;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
   }
   
  section{
@@ -44,12 +44,20 @@ footer{
   
   /*---font and groups --- */
 
+h1, h2, h3 {
+  font-family: sans-serif;
+	color: #adb5bd;
+  text-align: center;
+  font-weight: 350;
+}
+  
 h1 { font-size: 30px; }
 h2 { font-size: 28px; }
 h3 { font-size: 19px; } 
 
 a{
-  
+font-weight: 500;
+text-decoration: none;
 }
 
 a:link{color:#0466c8}
@@ -58,8 +66,8 @@ a:hover{color:#023e7d}
 a:active{color:#002855}
 
 hr{
-background-color:#0d3b66
-  
+padding-top: 80px;
+border-top: 2px solid #0d3b66
 }
 
 ul,ol{
