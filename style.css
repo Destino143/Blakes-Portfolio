@@ -5,7 +5,6 @@ body{
 margin: 0;
 background-color: #faf0ca ;
 font-family:"";
-text-align: center;
 padding: 0 25px
 }
 
@@ -35,11 +34,22 @@ header{
   }
   
  section{
-  padding: 0 25px  ;
-  margin: 75px 0  ;
-  
+  padding: 25px 25px  ;
+  margin: 75px 75px  ;
 }
-  
+  div{
+    width: 100%;
+  }
+ul{
+  margin: 0 auto;
+  width: 200px
+}
+
+ol{
+  margin: 0 auto;
+  width: 200px
+}
+
 footer{
   background-color:#0d3b66 ;
   text-align: center;
@@ -71,7 +81,7 @@ a:hover{color:#0353a4}
 a:active{color:#0466c8}
 
 hr{
-  width: 45%;
+  width: 55%;
   height: 4px;
   background-color:  #0d3b66;
   border: 2px solid black;
