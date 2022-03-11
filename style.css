@@ -71,7 +71,7 @@ a:hover{color:#0353a4}
 a:active{color:#0466c8}
 
 hr{
-  width: auto;
+  width: 25%;
   height: 4px;
   background-color:  #0d3b66;
   border: 2px solid black;
