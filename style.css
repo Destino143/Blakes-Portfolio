@@ -5,6 +5,7 @@ body{
 margin: 0;
 background-color: #faf0ca ;
 font-family:"";
+text-align:center;
 padding: 0 25px
 }
 
@@ -40,14 +41,15 @@ header{
   div{
     width: 100%;
   }
-ul{
-  margin: 0 auto;
-  width: 200px
+
+ ul{
+  margin:0 auto;
+  width: 200px;
 }
 
-ol{
+ ol{
   margin: 0 auto;
-  width: 200px
+  width: 100px
 }
 
 footer{
@@ -91,7 +93,9 @@ padding-top: 0 80px;
 
 }
 
-
+li{
+  text-align: left;
+}
   
   
 p, li,{
