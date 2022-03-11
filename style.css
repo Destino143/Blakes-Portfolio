@@ -4,7 +4,7 @@
 body{
 margin: 0;
 background-color: #faf0ca ;
-font-family:"";
+font-family:"Source Sans Pro", serif;
 text-align:center;
 padding: 0 25px
 }
@@ -17,7 +17,7 @@ header{
 }
   
 .logo{
-   font-family: ;
+   font-family: 'oswald', serif;
   font-size: 76px;
   color:#f7e294;
   text-align: center;
@@ -27,7 +27,7 @@ header{
   }
   
    header h2{
-     font-family: ;
+     font-family:'montserrat', serif ;
 	color: #faf0ca;
 	margin: 0px;
 	font-size: 28px;
@@ -62,7 +62,7 @@ footer{
   /*---font and groups --- */
 
 h1, h2, h3 {
-  font-family: ;
+  font-family:'montserrat', serif ;
 	color: #0d3b66;
   text-align: center;
   font-weight: 350;
@@ -99,7 +99,7 @@ li{
   
   
 p, li,{
- font-family: ;
+ font-family:"Source Sans Pro", serif ;
  line-height: 1.5em;
  margin-bottom: 0;
 }
